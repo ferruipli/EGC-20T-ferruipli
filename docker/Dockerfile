@@ -19,6 +19,3 @@ WORKDIR /app/decide
 ADD docker-settings.py /app/decide/local_settings.py
 
 RUN ./manage.py collectstatic
-
-ENTRYPOINT  echo "hello"
-
